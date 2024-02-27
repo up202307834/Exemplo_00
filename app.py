@@ -2,6 +2,8 @@
 @author: António Brito / Carlos Bragança
 (2024)
 #objective: Flask example for class Person
+
+
 """""
 from flask import Flask, render_template, request
 from classes.Person import Person
@@ -69,3 +71,5 @@ def index():
 
 if __name__ == '__main__':
     app.run()
+    
+""" alteraçao : alteraçao """
